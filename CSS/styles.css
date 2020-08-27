@@ -4,8 +4,6 @@ body {
 }
 
 #title {
-  /* background-color: green; */
-  /* #ff4c68 */
  background-image: url('../images/Untitled-2.png');
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -23,8 +21,6 @@ h1 {
   font-size: 3.8rem;
   line-height: 1;
   text-align: right;
-  /* text-align-last: left; */
-  /* color: White;  */
 }
 
 h3 {
@@ -49,7 +45,6 @@ p {
   padding: 0 18px;
 }
 
-
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat"
@@ -64,20 +59,10 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* .title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-} */
-
-
-
 #features {
   padding: 5% 12%;
   background-color: white;
   position: relative;
-  z-index: 1;
   color:black;
 }
 
@@ -89,39 +74,18 @@ p {
   color: orange;
   margin-bottom: 1rem;
 }
-
-.icon:hover {
-  color: red;
-}
-
-.Sskills{
-  margin-left: 30px;
-  text-align: center;
-}
-
-#testimonials {
-  color: black;
-  background-color: orange;
-}
-
-.col{
-  color:orange;
-  font-family: 'Montserrat-bold';
-  font-size: 1.3rem;
-  padding: 0;
-}
-
 #features p{
-  text-align: justify; /* For Edge */
-   -moz-text-align-last: justify; /* For Firefox prior 58.0 */
-   text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-word;
    color: black;
 }
 
 .Tskills{
   text-align: left;
   margin: auto;
-  line-height: 1.5;
+  line-height: 1.7;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .Tskills {
@@ -143,18 +107,37 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
   text-align: center;
-  color:orange;
+  color:black;
 }
 
-/* .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-} */
-
-#press {
+.Sskills{
+  margin-left: 30px;
+  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.en{
+  span {
+  content: "\2709";
+}
+.in{
+  span {
+  content: "\260E";
+}
+}
+}
+#testimonials {
+  color: black;
   background-color: orange;
 }
+
+.col{
+  color:orange;
+  font-family: 'Montserrat-bold';
+  font-size: 1rem;
+  /* padding: 0; */
+}
+
 
 .list{
   width:75%;
@@ -171,19 +154,9 @@ h2 {
   padding: 50px;
 }
 
-/* .pricing-column {
-  padding: 3% 2%;
-} */
-
-@media (max-width:1028px) {
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-
-  #title {
-    text-align: center;
-  }
+.lead{
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .container{
@@ -199,59 +172,41 @@ h2 {
 
 #cta {
   background-color: orange;
-  color: white;
   padding: 5% 10% 7%;
-  line-height: 1.5;
 }
 
-.footer-font {
-  font-family: "Montserrat-black";
-  font-size: 2.5rem;
-  color: white;
-  font-weight: bold;
-}
 
 #footer {
   padding: 7% 15% 5%;
 }
 
-.footer-sym {
-  margin: 3% 1%;
-}
 
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 25px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
-  border-radius: 15%;
+  color: #3B5998;
 }
+
 .fa-instagram {
-  background: #125688;
-  color: white;
-  border-radius: 15%;
+  color: #bc2a8d;
 }
 
 .fa-pinterest {
-  background: #cb2027;
-  color: white;
-  border-radius: 15%;
+  color: #cb2027;
 }
 
 .fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
+  color: #fffc00;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  border-radius: 15%;
 }
