@@ -1,2 +1,2 @@
 # ePortfolio
-An electronic portfolio for Harish Vatchavai
+An electronic portfolio of Harish Vatchavai
